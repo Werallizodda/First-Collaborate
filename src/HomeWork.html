@@ -4,18 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./output.css">
 </head>
 <body>
       <header>
-        <section>
-            <div>
+        <section class="xl:max-w-[1200px] xl:m-auto">
+            <div class="xl:flex xl:flex-row xl:justify-between xl:items-center xl:mt-[20px] xl:mb-[20px]">
+                <img src="./image/Light.png" alt="error">
+            <div class="xl:flex xl:flex-row xl:gap-[20px] xl:items-center">
+                <p class="text-gray-500">О Компании</p>
+                <p class="text-gray-500">Новости</p>
+                <p class="text-gray-500">Помощь</p>
+                <p class="text-gray-500">Отзывы</p>
+                <p class="text-gray-500">Контакты</p>
                 <div class="xl:flex xl:flex-col xl:justify-end xl:text-end">
-                    <p class="text-[13px] text-red-600">Звонок бесплатный</p>
+                    <p class="text-[13px] text-gray-500">Звонок бесплатный</p>
                     <h1 class="text-[18px]">+7 495 123-45-67</h1>
                 </div>
             </div>
+            </div>
         </section>
       </header>
+      <main>
+        <section class="xl:bg-image-bg xl:bg-cover xl:bg-no-repeat xl:bg-center xl:h-[798px]">
+            <div class="xl:max-w-[1200px] xl:m-auto">
+            <div class="xl:flex xl:flex-row xl:justify-between xl:items-center xl:h-[798px]">
+                <div>
+                    <h1 class="xl:w-[480px] xl:h-[136px] xl:text-[64px] xl:font-[700] text-white">Курсы английского языка</h1>
+                    <p class="xl:text-[24px] xl:font-[400] xl:w-[420px] xl:h-[93px] text-white xl:mt-[100px]">Станьте сильнее и увереннее всего за 7 дней прохождения курса онлайн</p>
+                </div>
+                <div class="xl:w-[445px] xl:h-[460px] xl:bg-white xl:rounded-[10px] xl:flex xl:flex-col xl:gap-[20px] xl:justify-center xl:items-center">
+                    <p class="xl:text-[18px] xl:font-[500]">Запишись на первый бесплатный урок <br> прямо сейчас</p>
+                     <input class="xl:border-[2px] xl:border-gray-500 xl:w-[365px] xl:h-[56px] xl:rounded-[10px]" type="text" placeholder="Ваше Имя">
+                     <input class="xl:border-[2px] xl:border-gray-500 xl:w-[365px] xl:h-[56px] xl:rounded-[10px]" type="tel" placeholder="Ваш телефон">
+                     <input class="xl:border-[2px] xl:border-gray-500 xl:w-[365px] xl:h-[56px] xl:rounded-[10px]" type="email" placeholder="Электронная почта">
+                     <button class="xl:text-white xl:bg-[#FF002E] xl:w-[365px] xl:h-[56px] xl:rounded-[10px]">Оставить заявку</button>
+                     <p class="text-gray-500">+ Скидка 20% на покупку любого курса</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="xl:max-w-[1200px] xl:m-auto">
+                <h1 class="text-[64px] xl:font-[700] xl:text-center xl:mt-[100px]">Наши курсы</h1>
+                <p class="text-[24px] font-[500] xl:text-center">Мы подготовили для вас интересные обучающие программы <br> от лучших преподавателей</p>
+                <div class="xl:flex xl:flex-wrap xl:gap-[50px] xl:mt-[50px]">
+                    <div>
+                    <img src="./image/Dark6.png" alt="error">
+                    </div>
+                    <div>
+                    <img src="./image/Dark1.png" alt="error">
+                    </div>
+                    <div>
+                    <img src="./image/Dark2.png" alt="error">
+                    </div>               
+                     <div class="xl:w-[350px] xl:h-[380px]">
+                    <img src="./image/Dark3.png" alt="error">
+                     </div>
+                     <div class="xl:w-[350px] xl:h-[380px]">
+                    <img src="./image/Dark4.png" alt="error">
+                    </div>
+                     <div class="xl:w-[350px] xl:h-[380px]">
+                    <img src="./image/Dark5.png" alt="error">
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
 </body>
 </html>
