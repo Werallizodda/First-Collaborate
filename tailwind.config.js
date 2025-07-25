@@ -13,6 +13,9 @@ export default {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
+      'mg': '1200px',
+      // => @media (min-width: 1200px) { ... }
+
       'xl': '1440px',
       // => @media (min-width: 1280px) { ... }
 
@@ -24,6 +27,8 @@ export default {
         'image-bg': "url('/src/image/01.png')", 
         // 'image-bg1': "url('/src/Rectangle16.png')",
         // 'image-bg2': "url('/src/Rectangle1.png')",
+
+        'image-top': "url('/src/M-images/unsplash_OhKElOkQ3RE.png')",
       },
     },
   },
