@@ -22,7 +22,7 @@ export default {
     extend: {
       backgroundImage: {
         'image-bg': "url('/src/image/01.png')", 
-        // 'image-bg1': "url('/src/Rectangle16.png')",
+        'image-bg1': "url('/src/image/54d5461867d4824bac8d0c210efaeb428f3a2727.jpg')",
         // 'image-bg2': "url('/src/Rectangle1.png')",
       },
     },
